@@ -1,1 +1,6 @@
-SPRING 2020
+HOMEWORK1 (MNIST DATASET)
+1. Using various AX = B solvers, determine a mapping from the image space to the label space
+2. By promoting sparsity, determine and rank which pixels in the MNIST set are most informative for correctly labeling the digits. 
+   (You’ll have to come up with your own heuristics or empirical rules for this. Use pcolor to help you visualize the results from X) 
+3. Apply your most important pixels to the test data set to see how accurate you are with as few pixels as possible.
+4. Redo the analysis with each digit individually to ﬁnd the most important pixels for each digit.
