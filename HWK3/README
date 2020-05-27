@@ -1,0 +1,11 @@
+AMATH 563 Spring Quarter 2020
+Homework 3: Extended Yale Faces B Database – Eigenfaces DUE: Wednesday, May 27, 2020
+Yale Faces B
+Download two data sets (ORIGINAL IMAGE and CROPPED IMAGES) Your job is to perform an analysis of these data sets. Please start with the cropped images and perform the following analysis.
+1. Do an SVD analysis of the images (where each image is reshaped into a column vector and each column is a new image).
+2. What is the interpretation of the U, Σ and V matrices?
+3. What does the singular value spectrum look like and how many modes are necessary for good image reconstructions? (i.e. what is the rank r of the face space?)
+4. compare the diﬀerence between the cropped (and aligned) versus uncropped images.
+Face Identiﬁcation: see if you can build a classiﬁer to identify individuals in the training set.
+• (test 1) Face Classiﬁcation: Consider the various faces and see if you can build a classiﬁer that can reasonably identify an individual face. • (test 2) Gender Classiﬁcation: Can you build an algorithm capable of recognizing men from women? • (test 3) Unsupervised algorithms: In an unsupervised way, can you develop algorithms that automatically ﬁnd patters in the faces that naturally cluster?
+NOTE: You can use any (and hopefully all) of the diﬀerent clustering and classiﬁcation methods discussed. Be sure to compare them against each other in these tasks.
