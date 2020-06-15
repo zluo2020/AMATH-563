@@ -1,0 +1,15 @@
+AMATH 563 Spring Quarter 2020
+Homework 4: Neural Networks for Dynamical Systems
+DUE: Wednesday, June 10, 2020
+Download the accompanying ZIP file which includes MATLAB code for solving (i) A reaction-diffusion system of equations, and (ii) The Kuramoto-Sivashinsky (KS) equation.
+1. Train a NN that can advance the solution from t to t + ∆t for the KS equation
+2. Compare your evolution trajectories for your NN against using the ODE time-stepper provided with
+different initial conditions
+3. For the reaction-diffusion system, first project to a low-dimensional subspace via the SVD and see how
+forecasting works in the low-rank variables.
+For the Lorenz equations (code given out previously in class emails), consider the following.
+1. Train a NN to advance the solution from t to t + ∆t for ρ = 10, 28 and 40. Now see how well your NN
+works for future state prediction for ρ = 17 and ρ = 35.
+2. See if you can train your NN to identify (for ρ = 28) when a transition from one lobe to another is
+imminent. Determine how far in advance you can make this prediction. (NOTE: you will have to label
+the transitions in a test set in order to do this task)
